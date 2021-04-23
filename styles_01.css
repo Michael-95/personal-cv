@@ -1,0 +1,54 @@
+body {
+  background-color: #eeebdd ;
+  font-family: sans-serif;
+
+}
+hr {
+  border-style : none;
+  border-top-style : dotted;
+  border-color: grey;
+    border-width: 5px;
+  width : 3%;
+}
+
+h2  {
+  color: #66BFBF ;
+  font-size: 30px;
+  margin : 0 auto 0 auto;
+  font-family: 'Antonio' , sans-serif;
+}
+a :visited {
+  color: purple;
+}
+
+a :active {
+  color: red;
+}
+/******************** Selectors****************/
+.photo{
+height: 200px;
+border-radius: 100%;
+align-items: center;
+}
+
+.external {
+  background-color: lightblue;
+}
+/******************** Styling the contact me page**************/
+form .form_exemple {
+  display : table;
+}
+div .form_exemple {
+  display : table-row;
+}
+label, input{
+
+  margin-bottom: 20px;
+}
+label {
+  padding-right: 20px;
+}
+/******************* footer ************************/
+footer {
+  text-align: center;
+}
